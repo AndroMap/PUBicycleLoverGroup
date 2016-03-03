@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/AboutUs"
+            android:title="About Us" />
+        <item
+            android:id="@+id/CurrentMembers"
+            android:title="Current Members" />
+        <item
+            android:id="@+id/EventsAndActivities"
+            android:title="Events And Activities" />
+        <item
+            android:id="@+id/Gallery"
+            android:title="Gallery" />
+    </group>
+
+    <item>
+        <menu>
+            <item
+                android:id="@+id/SuggestFriends"
+                android:title="Suggest Friends" />
+            <item
+                android:id="@+id/RateUs"
+                android:title="Rate Us" />
+			<item
+				android:id="@+id/DevelopedBy"
+				android:title="Developed By" />
+        </menu>
+    </item>
+
+</menu>
